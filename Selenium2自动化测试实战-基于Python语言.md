@@ -27,7 +27,7 @@ XPath有多种定位策略
  7.1. 绝对路径定位
 find_element_by_xpath("/html/boby/div/div[2]/div/div/div/from/span/input")
 
- 7.2 利用元素属性定位
+ 7.2. 利用元素属性定位
 find_element_by_xpaht("//input[@id='kw']")
 //表示当前页面某个目录下，
 input表示定位元素的标签名
@@ -49,7 +49,7 @@ find_element_by_xpath("//form[@id='form']/span[2]/input")
 8. 使用逻辑运算符
 find_element_by_xpath("//input[@id='kw' and @class='su']/span/input]")
 
-9.CSS(Cascading style sheets)定位
+9. CSS(Cascading style sheets)定位
 
 CSS是一种语言
 

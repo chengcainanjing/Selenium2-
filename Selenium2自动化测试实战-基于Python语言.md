@@ -1,4 +1,4 @@
-####定位元素####
+****定位元素****
 
 1. ID定位
 find_element_by_id("kw")
@@ -24,7 +24,7 @@ find_element_by_partial_text("一个很长的")
 
 XPath有多种定位策略
 
-  7.1. 绝对路径定位
+   7.1. 绝对路径定位
 find_element_by_xpath("/html/boby/div/div[2]/div/div/div/from/span/input")
 
   7.2. 利用元素属性定位

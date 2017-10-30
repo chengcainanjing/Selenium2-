@@ -20,7 +20,7 @@ find_element_by_link_text("新闻")
 这是对link定位的一种补充，有些文本链接会比较长，这时候可以去文本连接的一部分定位
 find_element_by_partial_text("一个很长的")
 
-7.XPath定位
+7. XPath定位
 
 XPath有多种定位策略
 

@@ -1,4 +1,4 @@
-##定位元素##
+####定位元素####
 
 1. ID定位
 find_element_by_id("kw")
@@ -9,7 +9,7 @@ find_element_by_name("wd")
 3. class定位
 find_element_by_class_name("s_ipt")
 
-4.tag定位
+4. tag定位
 find_element_by_tag_name("input")
 
 5. link定位
@@ -24,10 +24,10 @@ find_element_by_partial_text("一个很长的")
 
 XPath有多种定位策略
 
- 7.1. 绝对路径定位
+  7.1. 绝对路径定位
 find_element_by_xpath("/html/boby/div/div[2]/div/div/div/from/span/input")
 
- 7.2. 利用元素属性定位
+  7.2. 利用元素属性定位
 find_element_by_xpaht("//input[@id='kw']")
 //表示当前页面某个目录下，
 input表示定位元素的标签名
@@ -38,7 +38,7 @@ fing_element_by_xpath("//input[@class='s_ipt']")
 find_element_by_xpath("//*[class='bg_s_btn']")
 如果不想制定标签名，则可以用星号（*）代替
 
- 7.3. 层级与属性结合
+  7.3. 层级与属性结合
 find_element_by_xpath("//span[@class='bg_s_ipt_wr']/input")
 span[@class='bgs_ipt_wr']通过class属性定位到父元素，
 后面/input表示父元素下面的子元素

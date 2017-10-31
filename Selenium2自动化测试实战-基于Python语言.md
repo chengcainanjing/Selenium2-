@@ -1,4 +1,4 @@
-****定位元素****
+#定位元素#
 
 1. ID定位
 find_element_by_id("kw")
@@ -56,7 +56,23 @@ CSS是一种语言
 |选择器|例子|描述|
 |-|-|-|
 |.class|.intro|class选择器，选择class=“intro”的所有元素|
-||||
+|#id|#firstname|id选择器，选择id=“firstname”的所有元素|
+|* | * | 选择所有元素|
+|element|p|元素所有<p>元素|
+|element>element|div>input|选择父元素为<div>的所有<input>元素|
+|element+element|div+input|选择同一级中紧接在<div>元素之后的所有<input>元素|
+|[attribute]|[target=_blank]|选择arget="_blank"的所有元素|
+
+- 通过class属性定位
+find_element_by_css_selector(".s_ipt")
+find_element_by_css_selector(".bg s_btn")
+
+- 通过id属性定位
+find_element_by_css_selector("#kw")
+find_element_by_css_selector("#su")
+
+
+
 
 
 

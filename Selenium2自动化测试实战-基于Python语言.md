@@ -64,12 +64,55 @@ CSS是一种语言
 |[attribute]|[target=_blank]|选择arget="_blank"的所有元素|
 
 - 通过class属性定位
+
 find_element_by_css_selector(".s_ipt")
 find_element_by_css_selector(".bg s_btn")
 
 - 通过id属性定位
+
 find_element_by_css_selector("#kw")
 find_element_by_css_selector("#su")
+
+- 通过标签名定位
+
+find_element_by_css_selector("input")
+通过标签名定位元素，不需要任何符号标识，直接使用标签签名即可。
+但我们前面了解到，标签名重复概率非常大，所以通过这种方式很难找到想要的元素。
+
+- 通过父子关系定位
+
+find_element_by_css_selector("span>input")
+
+- 通过属性定位
+
+find_element_by_css_selector("[autocomplete=off]")
+find_element_by_css_selector("[name='kw']")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
